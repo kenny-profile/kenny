@@ -1,0 +1,86 @@
+body {
+  background-color: rgb(25, 25, 25);
+  color: white;
+  font-family: Arial;
+  
+
+}
+.container{
+  display: flex;
+  flex: 2;
+  justify-content: center;
+  
+}
+.game-container{
+  border: 2px solid;
+  border-color: grey;
+  padding: 20px 70px;  
+}
+.Group-Box{
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+p{
+  display: flex;
+  justify-content: center;
+}
+
+marquee{
+  color: gold;
+  height: 500px;
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: 50px;
+  
+  
+}
+.title{
+  font-size: 30px;
+  font-weight: bold;
+
+}
+.move-icon{
+  height: 50px;
+  
+}
+.moves-button{
+  background-color: transparent;
+  border: 3px solid white;
+  width: 120px;
+  height: 120px;
+  border-radius: 60px;
+  margin-right: 10px;
+  cursor: pointer;
+  margin-bottom: 50px;
+}
+.moves-button:hover{
+  background-color: rgb(58, 55, 55);
+}
+.moves-button:active{
+  background-color: rgb(112, 109, 109);
+}
+.reset, .auto-play{
+  font-size: 16px;
+  padding: 8px 13px ;
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+ 
+}
+.reset:hover,.auto-play:hover{
+  background-color: rgb(175, 170, 170);
+}
+.result{
+
+  font-size: 22px;
+  font-weight: bold;
+  
+  
+}
+.move{
+  margin-bottom: 50px;
+}

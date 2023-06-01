@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="11x.css">
+  </head>
+  <body>
+    <div class="todo-container">
+      <div>
+        <div>
+          <div class="todo-paragraph">
+            <p class="todo-title">Todo List</p>
+          </div>
+          <div class="todo-grid">
+            <input class="js-todo-input" type="text" placeholder="Type your Schedule" onkeydown="keyDown(event)">
+            <input class="js-todo-date" type="date">
+            <button class="add-todo js-add-todo" >Add</button> 
+          </div>
+          <div class="js-todo-grid"></div>
+          <div id="js-save"></div>
+          </div>
+        </div>
+        <div class="info">
+          <marquee behavior="scrolling" direction="up">
+            <p class="p-info">This app was developed</p>
+            <p class="p-info">by</p>
+            <p class="p-info">Kehinde Joel</p>
+            <p class="p-info">Copyright &copy; 2023</p>
+          </marquee>
+        </div>
+    </div>
+    
+    <script src="Todo.js"></script>
+  </body>
+</html>

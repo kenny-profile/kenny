@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator-styling.css">
+  </head>
+  <body>
+
+        <p class="js-calculate num-calc"></p>
+        <p class="calc-buttons">
+          <button class="number-buttons" onclick="calculator('1')">1</button>
+          <button class="number-buttons" onclick="calculator('2')">2</button>
+          <button class="number-buttons" onclick="calculator('3')">3</button>
+          <button class="Arith" onclick="calculator(' + ')">+</button>
+        </p> 
+        <p class="calc-buttons">
+          <button class="number-buttons" onclick="calculator('4')">4</button>
+          <button class="number-buttons" onclick="calculator('5')">5</button>
+          <button class="number-buttons" onclick="calculator('6')">6</button>
+          <button class="Arith" onclick="calculator(' - ')">-</button>
+        </p class="calc-buttons">
+        <p class="calc-buttons">
+          <button class="number-buttons" onclick="calculator('7')">7</button>
+          <button class="number-buttons" onclick="calculator('8')">8</button>
+          <button class="number-buttons" onclick="calculator('9')">9</button>
+          <button class="Arith" onclick="calculator(' * ')">*</button>
+        </p>
+        <p class="calc-buttons">
+          <button class="number-buttons" onclick="calculator('0')">0</button>
+          <button class="number-buttons" onclick="calculator('.')">.</button>
+          <button class="number-buttons" onclick="evaluation()">=</button>
+          <button class="Arith" onclick="calculator(' / ')">/</button>
+        </p>
+        <p class="clear">
+          <button class="number-buttons" onclick="
+          //clear the display
+          document.querySelector('.js-calculate')
+            .innerHTML= ''
+          // Initialise calculation
+            calculation=''
+          ">Clear</button>
+          
+        </p>
+      
+        <p class="scolling-text">
+          <div class="modalconent">
+                
+                <marquee class = "marquee" behavior="scroll" direction="left">
+                 This simple Calculator was developed and produced by Kehinde Joel &copy; 2023</marquee>
+             
+          </div>
+   
+        </p>
+
+        <p class="anchor-text"></p>
+      
+      
+
+    <script src="calculator.js">
+      
+      
+    </script>
+    
+  </body>
+</html>

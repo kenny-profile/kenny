@@ -1,0 +1,75 @@
+body{
+ 
+  background-color: rgb(25, 25, 25);
+
+}
+
+.calc-buttons, .anchor-text{
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+.num-calc{
+  display: flex;
+  flex:1;
+  justify-content: center;
+  padding-left: 40px;
+}
+.clear{
+  display: flex;
+  justify-content: center;
+  margin-left: -120px;
+  
+}
+
+.number-buttons{
+background-color: rgb(109, 106, 106);
+color: white;
+width: 40px;
+height: 40px;
+border: none;
+border-radius: 20px;
+cursor: pointer;
+}
+.number-buttons:hover{
+  background-color: rgb(189, 184, 184); ;
+}
+.Arith{
+  background-color: orange;
+  color: white;
+  height: 40px;
+  width: 40px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.Arith:hover{
+  background-color: rgb(243, 181, 67);
+}
+.num-calc{
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  
+}
+.scolling-text{
+  position: fixed;
+  top:0px
+
+}
+.modalconent {
+  position: absolute;
+  background: #FFD700;
+  width: 100%;
+  padding: 50px;
+}
+
+.marquee {
+color: black;
+letter-spacing: 2px;
+font-weight: 700;
+padding: 30px;
+font-size: 40px;
+}

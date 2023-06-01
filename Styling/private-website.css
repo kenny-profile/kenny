@@ -1,0 +1,127 @@
+body{
+  
+  
+}
+@keyframes slideDown {
+  from{
+    transform: translateY(-300px);
+  }
+  
+  to{
+    transform: translateY(0);
+  }
+}
+.welcome-message{
+  
+  color: orangered;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 4.5vw;
+  text-align: center;
+  font-weight: bold;
+  white-space: nowrap;
+  
+  animation: slideDown 3s ease-in 0s;
+  
+  
+}
+.info{
+  margin-top: 200px;
+  color: darkred;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3vw;
+  text-align: center;
+  font-weight: bold;
+  white-space: nowrap;
+  
+  animation: slideDown 5s ease-in 0s;
+}
+.info-2{
+  margin-top: 300px;
+  color: darkred;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2.2vw;
+  text-align: center;
+  font-weight: bold;
+  white-space: nowrap;
+  
+  animation: slideDown 5s ease-in 0s;
+}
+
+form{
+  margin-top: 10%;
+  position: relative;
+
+  display: flex;
+  flex:1;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+ 
+}
+.pass-control{
+  background-color: rgb(6, 6, 90);
+  opacity: 0.7;
+  position: absolute;
+  top: 20%;
+  left: 35%;
+  padding: 3px 10px;
+  z-index: 2;
+
+}
+@media (max-width:600px) {
+ 
+  .pass-control{
+    position: absolute;
+    left: 15%;
+  }
+}
+.pass-title{
+  color: yellow;
+  font-size: 32px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+.user-name, .pass-code{
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 40px;
+  width: 90%;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  height: 50px;
+  background-color: rgb(6, 6, 90);
+  border-color: white;
+  font-weight: bold;
+  font-size: 26px;
+  color: white;
+}
+.user-name::placeholder, .pass-code::placeholder{
+  font-weight: bold;
+  font-size: 14px;
+  color: white;
+}
+
+.access{
+  margin-left: 25%;
+  padding: 3% 5%;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 15px;
+  background-color: rgb(22, 133, 170);
+  border: none;
+  color: black;
+  cursor: pointer;
+}
+.access:hover{
+  background-color: blue;
+  color: white;
+}
+.warning{
+font-size: 24px;
+color: red;
+font-weight: bold;
+display: flex;
+justify-content: center;
+
+}

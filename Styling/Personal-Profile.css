@@ -1,0 +1,265 @@
+body{
+   padding-top: 200px; 
+   background-color: rgb(226, 222, 222);
+}
+.name-header{
+  position: fixed;
+  top: 0px;
+  background-color: rgb(112, 102, 102);
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  
+  padding-top: 10px;
+  padding-right: 5px;
+  max-height: 25%;
+ 
+}
+
+.name-container{
+  margin-left: 10%;
+  margin-top: 1.5%;
+  
+}
+.picture{
+  width: 12%;
+  
+  max-height: 100%;
+}
+.name{
+  display: inline;
+  font-family:'Courier New', Courier, monospace;
+  font-size: 5vw;
+  font-weight: bold;
+  white-space: nowrap;
+  color: blue;
+ 
+}
+.qualifications{
+  font-size: 2vw;
+  font-style: italic;
+  font-weight: bold;
+  white-space: nowrap;
+  margin-top: 0px;
+  margin-left: 30%;
+  color: navajowhite;
+}
+.profile-image{
+  width: 100%;
+  border-radius: 150px;
+  max-height: 100%;
+}
+.work-experience-section{
+  background-color:  gray;
+  width: 79%;
+  padding: 1px 5px;
+  margin-top: -2%;
+  
+}
+
+
+
+.heading{
+  text-decoration: underline;
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+   background-color: gray;
+  margin-bottom: 0px;
+  padding-bottom: 10px;
+}
+.work-1{
+  background-color: lightgray;
+}
+.work-top-grid{
+  display: grid;
+  grid-template-columns: 35% 35% 30%;
+  width: 100%;
+  font-size: 16px;
+  font-weight: 700;
+  background-color: rgb(156, 154, 154);
+  column-gap: 10px;
+  
+
+}
+
+ul{
+  padding-bottom: 10px;
+}
+li{
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+
+.picture-section{
+  
+  display: flex;
+  justify-content: center;
+  column-gap: 3px;
+  padding: 5px;
+  
+}
+.pix{
+  display: flex;
+  width: 33%;
+  height: 300px;
+}
+.pix-heading{
+  font-size: 16px;
+  font-weight: bold;
+  display: inline;
+  margin-bottom: 10px;
+  text-decoration: underline;
+}
+.project-pix{
+  width: 100%;
+  
+}
+.edu-section{
+  background-color: #35424a;
+  color: #ffffff;
+  padding: 2px 5px;
+  margin-top: 10px;
+  width: 79%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  
+}
+.edu-heading, .ref{
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.other-skills-section{
+  background-color: #354243;
+  color: #ffff;
+  width: 79%;
+  padding: 2px 5px;
+  border-radius: 10px;
+}
+.reference-section{
+  background-color:#afe4b8;
+  width: 79%;
+  padding: 2px 5px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+.reference-grid{
+  display: grid;
+  grid-template-columns: 35% 35% 30%;
+  width: 100%;
+}
+.table-head{
+  font-size: 16px;
+  font-weight: bold;
+}
+#side-bar{
+  background-color:  #13044e;
+  position: fixed;
+  top: 26.5%;
+  right: 0px;
+  left: 80%;
+  padding-bottom: 20px;
+  z-index: 1;
+  color: #ffff;
+  min-height: 100vh;
+ 
+}
+#scroll-container{
+  display: flex;
+  
+  overflow-x: hidden;
+  column-gap: 10px;
+}
+
+
+#bio-grid{
+  background-color: #0d0333;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 10px;
+  margin:0px 6px;
+  width: 250px;
+}
+#head{
+  background-color: #0d0333;
+  padding-left:10px ;
+  margin-bottom: 2px;
+  font-size: 18px;
+  font-weight: bold;
+  margin:0px 6px
+}
+#achievement, #strength{
+
+  background-color: #0d0333;
+  padding: 10px;
+  margin:0px 6px;
+  min-width: 25vw;
+  display: flex;
+  justify-content: start;
+ 
+  font-size: 4ch;
+}
+#contact{
+  background-color: #0d0333;
+  min-width: 25vw;
+  padding-left: 20px;
+}
+#achievement li{
+  margin-bottom: 10px;
+  width: 15vw;
+  color: rgb(142, 187, 187);
+}
+#strength li{
+  margin-bottom: 10px;
+}
+#strength-cont{
+  margin-top: 25px;
+  padding: 10px;
+}
+a{
+  color: rgb(142, 187, 187);
+}
+a:hover{
+  color: white;;
+
+}
+#achievement-container{
+  max-height: fit-content;
+}
+
+footer{
+  background-color: rgb(59, 56, 56);
+  color: red;
+  width: 80%;
+}
+footer div{
+  background-color: rgb(48, 45, 45);
+  width: 15%;
+  color: gold;
+  
+}
+
+address p{
+  display: flex;
+  align-items: center;
+  
+}
+address img{
+  width: 30px;
+ 
+}
+footer marquee{
+  font-weight: bold;
+  font-size: 18px;
+  
+}
+.copyright{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  display: flex;
+  justify-content: center;
+  color: gold;
+}

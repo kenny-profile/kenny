@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+
+    <link rel="stylesheet" href="styles/12r.css">
+  </head>
+  <body>
+    
+    <div class="container">
+      <div class="game-container">
+        <div class="Group-Box">
+          <p class="title">Rock Paper Scissors</p>
+        </div>
+        <div class="Group-Box">
+            <button class="moves-button js-rock-move">
+        
+            <img class="move-icon" src="Images/rock-emoji.png">
+      
+            </button>
+      
+            <button class="moves-button  js-paper-move" >
+              
+              <img class="move-icon " src="Images/paper-emoji.png">
+      
+            </button>
+      
+            <button class="moves-button js-scissors-move">
+              <img class="move-icon" src="Images/scissors-emoji.png">
+      
+            </button>
+        </div>
+        <div class="Group-Box">
+          <p class="js-result result"></p>
+        </div>
+        <div class="Group-Box">
+          <p class="js-moves move"></p>
+        </div>
+        <div class="Group-Box">
+          <p class="js-score"></p>
+        </div>
+        
+        <div class="Group-Box">
+          <button class="reset js-reset">Reset Score</button>
+          <button class="auto-play js-auto-play">Start Auto Play</button>
+        </div>
+      </div>
+      <div>
+        <marquee behavior="scrolling" direction="down">
+          <p>Rock Paper Scissors Game</p>
+          <p>developed by Kehinde Joel</p>
+          <p>Copyright &copy; 2023</p>
+        </marquee>
+      </div>
+    </div>
+    <div id="info">
+      
+    </div>
+
+    <script src="Scripts/Rock-Paper-Scissors.js">
+    
+    </script>
+  </body>
+</html>

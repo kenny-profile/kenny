@@ -1,0 +1,81 @@
+body{
+  background-color: black;
+  color: white;
+}
+.todo-container{
+  display: flex;
+  flex: 2;
+  justify-content: space-evenly;
+  
+}
+.p-info{
+  display: flex;
+  justify-content: center;
+  color: gold;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.todo-paragraph{
+  display: flex;
+  justify-content: center;
+}
+.todo-title{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+.todo-grid,
+.js-todo-grid{
+  display: grid;
+  grid-template-columns: 200px 150px 100px;
+  column-gap: 10px;
+  row-gap: 10px;
+  align-items: center;
+}
+.todo-grid{
+  margin-bottom: 10px;
+  align-items: stretch;
+}
+
+.add-todo{
+  background-color: green;
+  border: none;
+  color: white;
+  padding: 5px 7px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.add-todo:hover{
+  background-color: lightgreen;
+}
+.todo-delete{
+  background-color: darkred;
+  border: none;
+  border-radius: 3px;
+  padding: 5px 7px;
+  cursor: pointer;
+
+}
+.todo-delete:hover{
+  background-color: red;
+
+}
+.save,
+.reset{
+  
+  background-color: blue;
+  color: red;
+  padding: 5px 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 30px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.save:hover,
+.reset:hover{
+  background-color: lightblue;
+}
